@@ -18,11 +18,11 @@ variable "fingerprint" {
   type        = string
   default     = "a4:fb:8f:c5:44:87:63:a5:21:d6:95:4d:7d:81:6c:98"
 }
-variable "private_key_path" {
-  description = "Path to Private Key Local"
-  type        = string
-  default     = "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idcjxagmpqv2/b/ash_bucket/o/ociterraformworker.pem"
-}
+#variable "private_key_path" {
+#  description = "Path to Private Key Local"
+#  type        = string
+#  default     = "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idcjxagmpqv2/b/ash_bucket/o/ociterraformworker.pem"
+#}
 variable "demo_compartment_ocid" {
   description = "Compartment for Demo Environment"
   type        = string
