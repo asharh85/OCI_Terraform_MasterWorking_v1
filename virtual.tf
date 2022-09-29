@@ -1,6 +1,6 @@
 resource "oci_core_instance" "tformdbox1" {
   availability_domain = "Pjgw:US-ASHBURN-AD-1"
-  compartment_id      = var.demo_compartment_ocid
+  compartment_id      = var.compartment_id
   shape               = "VM.Standard1.1"
   display_name        = "Terraform Demo Box"
 
@@ -31,7 +31,7 @@ output "tformdbox1-Public-IP" {
 
 resource "oci_core_instance" "tformdbox2" {
   availability_domain = "Pjgw:US-ASHBURN-AD-1"
-  compartment_id      = var.demo_compartment_ocid
+  compartment_id      = var.compartment_id
   shape               = "VM.Standard1.1"
   display_name        = "Terraform Demo Box 2"
 
