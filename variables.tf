@@ -21,7 +21,7 @@ variable "fingerprint" {
 variable "private_key_path" {
   description = "Path to Private Key Local"
   type        = string
-  default     = "C:/Users/ashhussa/Desktop/Personal/OCI_Terraform/oci_key/ociterraformworker.pem"
+  default     = "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idcjxagmpqv2/b/ash_bucket/o/ociterraformworker.pem"
 }
 variable "demo_compartment_ocid" {
   description = "Compartment for Demo Environment"
